@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="screen1">
+            <div class="container">
+                <header>
+                        <h1>Jogo da Adivinhação</h1>
+                        <h2>Adivinhe o número entre 0 e 10</h2>
+                </header>
+                <section>
+                        <form>
+                            <input type="text" class="input">
+                            <button class="button">Tentar</button>
+                        </form>
+                </section>
+            </div>
+        </div>
+
+        <div class="screen2 hide">
+            <div class="other-container">
+                <header>
+                    <h2 class="other-h2">Acertou em 3 tentativas</h2>
+                </header>
+                <section>
+                    <button class="other-button">Jogar novamente</button>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
